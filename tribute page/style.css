@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,600i');
+.sidebar a:link    {
+  text-decoration:  none;
+  color:inherit;
+  } 
+.sidebar a:visited {
+  text-decoration:  none;
+  color:inherit;
+  } 
+.sidebar a:hover   {
+  text-decoration:  none;
+  color:#328CC1;
+  } 
+.sidebar a:active  {
+  text-decoration: underline;
+   color:inherit;
+}
+.thumbnail a:link    {
+  text-decoration:  none;
+  color:inherit;
+  } 
+.thumbnail a:visited {
+  text-decoration:  none;
+  color:inherit;
+  } 
+.thumbnail a:hover   {
+  text-decoration:  none;
+  color:#328CC1;
+  } 
+.thumbnail a:active  {
+  text-decoration: underline;
+   color:inherit;
+}
+.border-blue{
+    border: 0.2em solid #328CC1;
+}
+
+.bg-main{
+background:url(http://supernovathemes.com/wp-content/themes/supernovathemes/images/bg/b30.png);
+border-radius: 6px;
+margin-bottom: 30px;
+background-color: #5c2018;
+}
+ .sidebar {
+    position:fixed;
+   height:100%;
+   width:25%; 
+   top:0;
+   left:0;
+   background: #bc4639;
+   border: 0.3em solid #5c2018;
+   color: #f3e0dc;
+ }
+ .content {
+     margin-left: 25%;
+     height: 100%;
+     width: auto;
+     position: relative;
+     background-color: #f3e0dc;
+     overflow: auto;
+     z-index: 1;
+     color: #f3e0dc;
+ }
+ #jumbo{
+     background-color: #5c2018
+ }
+ .top-buffer2{
+     margin-top: 1.2em;
+ }
+ .top-buffer7{
+     margin-top: 7%;
+ }
+.padding-central{
+    padding: 1% 3% 1% 3%;
+}
+.fb-style{
+    color:#3b5998;
+}
+.tweet-style{
+ color:#00aced;  
+}
+.in-style{
+    color:#007bb6;
+}
+.hr-style{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+ .font-g{
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+}
+
+.fa{
+    color: #5c2018;
+}
+.effect7
+{
+  	position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect7:before, .effect7:after
+{
+	content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.effect7:after
+{
+	right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
